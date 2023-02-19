@@ -36,7 +36,10 @@ void loop() {
 
 // This loop prints all possible RGB color which is aproximitly 17 milions colors 255 ^3.
 /*
-The total number of iterations in the loop would be 256 x 256 x 256 = 16,777,216. The time complexity of this loop is O(N^3), where N = 256, since there are three nested loops that iterate up to 256. This means that the time required to complete the loop increases exponentially with the number of iterations, which could be a concern for larger values of N.
+The total number of iterations in the loop would be 256 x 256 x 256 = 16,777,216.
+ The time complexity of this loop is O(N^3), where N = 256, since there are three nested loops that iterate up to 256. 
+ This means that the time required to complete the loop increases exponentially with the number of iterations, 
+ which could be a concern for larger values of N.
 */
 
 
