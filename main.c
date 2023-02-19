@@ -32,7 +32,7 @@ void loop() {
       
 
     // Set up the values
-    setRGB(0, 255, 255); // purple
+    setRGB(0, 255, 255); //  aqua my favorite color
 
   
   delay(1000); // Wait for 1 second
