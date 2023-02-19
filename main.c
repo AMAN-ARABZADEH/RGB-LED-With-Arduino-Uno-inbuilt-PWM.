@@ -5,7 +5,12 @@ const int bluePin = 6;
 // This code only works for Arduino Uno dues to
 // It has PWM installed in it pins. PWM helps 
 /*
-it is usually necessary to use Pulse Width Modulation (PWM) to control an RGB LED and create different colors by varying the intensity of red, green and blue light. PWM makes it possible to simulate an analog signal by rapidly switching a digital signal between on and off states at different intervals, which in turn controls the amount of current directed to each color of the RGB LED.
+it is usually necessary to use Pulse Width Modulation (PWM)
+ to control an RGB LED and create different colors by varying the intensity of red,
+  green and blue light. PWM makes it possible to simulate an 
+  analog signal by rapidly switching a digital signal between on and off 
+  states at different intervals, which in turn controls the amount of 
+  current directed to each color of the RGB LED.
 */
 
 void setup() {
